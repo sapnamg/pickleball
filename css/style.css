@@ -1,0 +1,58 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+h1, h2, h3 {
+     text-align: center;
+     }
+
+h1   {
+     margin:0;
+     padding-top: 5rem;
+     padding-bottom: 5rem;
+     color:rgb(225, 129, 145);
+     text-decoration-line:underline;
+     }
+
+.seasons   {
+     margin: 1rem;
+     color: rgb(225, 129, 145);
+     }
+
+.signup {
+     margin-top: 4rem;
+     }
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media screen and (max-width:648px) {
+h1 {
+     font-size: 1.5rem;
+     }
+h2,h3 {
+     font-size: 1rem;
+     }
+}
